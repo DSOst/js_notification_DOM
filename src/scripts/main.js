@@ -13,11 +13,11 @@ const pushNotification = (posTop, posRight, title, description, type) => {
   const notificationTitle = document.createElement('h2');
 
   notificationTitle.classList.add('title');
-  notificationTitle.textContent(title);
+  notificationTitle.textContent = title;
 
   const notificationDescription = document.createElement('p');
 
-  notificationDescription.textContent(description);
+  notificationDescription.textContent = description;
 
   document.body.appendChild(notificationBody);
 
